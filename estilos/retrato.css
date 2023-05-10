@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
-.navigation-menu {
-    width: 400px;
+.menu-item {
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .main-section {
     display: flex;
     flex-direction: column;
@@ -18,22 +20,30 @@
 }
 
 .secundary-section-written {
-    padding: 20px;
+    padding: 24px;
+    text-align: center;
+    
+   
+   
+    
  
 }
 
 .secundary-section {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 400px;
+    text-align: center;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
-    margin: auto;
-    height: 250px;
+  
+   
+    
 }
 .container {
     display: flex;
-    margin: 20px;
+    flex-direction: column;
+    margin: 18px;
     
 }
 
@@ -42,21 +52,23 @@
 }
 .quadrado {
     width: 320px;
-    height: 550px;
+    height: 250px;
     margin-top: 23px;
     margin-bottom: 20px;
     border-radius: 34px;
-    padding: 20px;
+    
 }
 
 .subtitulo-quadrado {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
 }
 
 .paragrafo-quadrado {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     text-align: left;
     line-height: 18px;
+    padding-top: 25px;
 }

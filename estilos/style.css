@@ -35,6 +35,20 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+.main-section-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+#button {
+    width: 95px;
+    height: 40px;
+    border: none;
+    border-radius: 24px;
+    background-color: rgb(172, 166, 157);
+    
+}
+
 
 
 /*
